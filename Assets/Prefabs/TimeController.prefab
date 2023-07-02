@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8052401541894070103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8052401541894070100}
+  - component: {fileID: 8052401541894070101}
+  m_Layer: 0
+  m_Name: TimeController
+  m_TagString: Untagged
+  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8052401541894070100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8052401541894070103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.99, y: 0, z: -12.858059}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8052401541894070101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8052401541894070103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142282ef1311fcd4cbf4f7208886594b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualTime: 2
+  Wave1: {fileID: 1513783087581723103, guid: 01022bdd50c187c4cba724259408c24e, type: 3}
+  WaveDisco: {fileID: 4618618048982346374, guid: a1d55beb415b8be40ae058654fb0c907, type: 3}
+  WaveAngry: {fileID: 393799045652842059, guid: 599fafecf82556949853d1aebc9957f4, type: 3}
+  WaveNyan: {fileID: 3728780214912864272, guid: b55b7219d19a6a44a923e67bba3e2bb2, type: 3}
+  WaveSmile: {fileID: 5148698900237426654, guid: 9bf1d774ea74ed4488fb2f40ea35e7bd, type: 3}
+  WaveBrush: {fileID: 4463837616119082562, guid: cdad70a81ab21c04ba39cd8b27484cf8, type: 3}
+  WaveEvil: {fileID: 4509040339142230312, guid: c8b9e6de7bb634e43b14b1658f15b858, type: 3}
+  CaveiraL: {fileID: 2003531546311949000, guid: 772bb92b5b87a8440a754f873e9068ec, type: 3}
+  CaveiraR: {fileID: 7836476846479959905, guid: 0241f13ab50142a489dd84e478828a4b, type: 3}
+  BigR1: {fileID: 8900863533843025065, guid: b65bd351b84100b4d82b277abbe7dee4, type: 3}
+  BigR2: {fileID: 7833978554617969226, guid: 32f0b24ed4d8d2e47898c8317a29e5b0, type: 3}
+  BigR3: {fileID: 5692942420398738744, guid: 11001e6032193ea469025cc13bd54efe, type: 3}
+  BigL1: {fileID: 3434103981269839381, guid: c5dce466b137f2c419c4ea55656ea06f, type: 3}
+  BigL2: {fileID: 2777798187276077670, guid: 1403619b3ed70b34bbddea6f13dc3951, type: 3}
+  BigL3: {fileID: 7404534294717020907, guid: aacab6bc0c34f0047872c80288ba5205, type: 3}
+  doomL: {fileID: 9210657165401090598, guid: 62467cdf688f9d94a994753e947c2943, type: 3}
+  doomR: {fileID: 3823221347744915089, guid: 14ea3c47a485b5f40b894452f196d03d, type: 3}
+  waveFinal: {fileID: 5093992417562153492, guid: 615d7960e59ca4946b27226e25f88930, type: 3}
+  Boss: {fileID: 1471683039801124947, guid: 1b7fef2ac3532944aa6e8b69f32cd595, type: 3}
